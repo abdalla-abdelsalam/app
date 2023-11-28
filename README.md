@@ -15,6 +15,7 @@ Table of Contents
   - [Notes and Considerations](#notes-and-considerations)
 ## Description
 This project is a Docker Compose configuration that simplifies the deployment of a full-stack application comprising a Laravel API, Nuxt.js client, MySQL database, and Nginx server with HTTPS support. The following sections provide an overview of the project structure, services, usage instructions, prerequisites, technologies used, and additional details.
+This Dockerized application is a simple Book Management System designed to simplify the process of posting books into the database.
 ## Technologies Used
 
 * Docker: Containerization technology for packaging and deploying applications.
