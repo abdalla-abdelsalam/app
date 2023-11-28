@@ -38,14 +38,14 @@ This project is a Docker Compose configuration that simplifies the deployment of
 1. Nuxt.js Client:
     * Built from the ./client context
     * Depends on the API
-    * Networking: your_network_name
+    * Networking: app-network
 
 1. Nginx:
     * Image: Nginx latest
     * Ports: 443 (HTTPS)
     * Volumes: nginx.conf and certs directory
     * Depends on the Nuxt.js client
-    * Networking: your_network_name
+    * Networking: app-network
 
 ## Prerequisites
 
