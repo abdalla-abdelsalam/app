@@ -96,6 +96,8 @@ Before you begin, ensure you have the following prerequisites installed on your 
 
 1. Accessing the app:
    * https://localhost
+![Screenshot from 2023-11-28 12-53-47](https://github.com/abdalla-abdelsalam/app/assets/51873396/1322a738-07f7-4236-b474-71cf2c0f662f)
+
 
 ## Notes and Considerations
 * Ensure your Laravel API .env file is configured correctly to connect to MySQL.
