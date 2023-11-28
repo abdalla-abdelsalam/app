@@ -1,6 +1,20 @@
 # app
-This project is a Docker Compose configuration that simplifies the deployment of a full-stack application comprising a Laravel API, Nuxt.js client, MySQL database, and Nginx server with HTTPS support. The following sections provide an overview of the project structure, services, usage instructions, prerequisites, technologies used, and additional details.
 
+
+Table of Contents
+==================
+
+- [app](#app)
+- [Table of Contents](#table-of-contents)
+  - [Description](#description)
+  - [Technologies Used](#technologies-used)
+  - [Directories](#directories)
+  - [Docker compose Services](#docker-compose-services)
+  - [Prerequisites](#prerequisites)
+  - [usage](#usage)
+  - [Notes and Considerations](#notes-and-considerations)
+## Description
+This project is a Docker Compose configuration that simplifies the deployment of a full-stack application comprising a Laravel API, Nuxt.js client, MySQL database, and Nginx server with HTTPS support. The following sections provide an overview of the project structure, services, usage instructions, prerequisites, technologies used, and additional details.
 ## Technologies Used
 
 * Docker: Containerization technology for packaging and deploying applications.
@@ -31,7 +45,8 @@ This project is a Docker Compose configuration that simplifies the deployment of
     * Networking: app-network
 
 1. Laravel API:
-    * Built from the ./api context
+    * Built from the ./api covolumes:
+  mysql_data:ntext
     * Depends on MySQL
     * Networking: app-network
 
