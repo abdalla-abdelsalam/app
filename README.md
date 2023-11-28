@@ -100,4 +100,5 @@ Before you begin, ensure you have the following prerequisites installed on your 
 * Ensure your Laravel API .env file is configured correctly to connect to MySQL.
 * The Nginx setup uses self-signed certificates for HTTPS, which may result in browser security warnings.
 * This README provides a high-level overview. Further details on each service and customization options are available in their respective directories.
+* certs file that contains the certficate and key  should be secret and not included in repo (i included it for demonstration purposes and it's fake key and cert)
 * .env file should not be included in in the your repo uncomment the file in .gitignore file
